@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+body {
+    background: linear-gradient(45deg, #8a51cc, #3104d4);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+main.recipiente {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 7px;
+    box-shadow: 6px 3px 10px #0f2e70;
+  }
+.login {
+      position: relative;
+  }
+  form .login:first-child {
+    margin-bottom: 1.5rem;
+  }
+/*  #loginid::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+*/
+
+  .login input {
+      outline: none;
+      font-size: 0.8rem;
+      color: rgba(0, 0, 0, 0.5);
+  }
+  .login label {
+      font-size: 1rem;
+  } 
+  form div.login {
+      display: flex;
+      flex-direction: column;
+  }
+  form div.login input[id="loginbtn"] {
+    margin-top: 1rem;
+  }
+
+  form input[type="submit"] {
+      margin-top: 0.5rem;
+      padding: 7px;
+      cursor: pointer;
+      background: linear-gradient(to left, #8a51cc, #3104d4);
+      color: white;
+      font-size: 0.9rem;
+      border-radius: 30px;
+      transition: all 0.4s ease-in-out;
+  }
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #8a51cc, #3104d4);
+}
